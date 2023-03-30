@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors')
 
-const mongoConnectionString = "mongodb://localhost:27017/Task-Tracker-2"
+const mongoConnectionString = "mongodb://localhost:27017/<db-name>"
 
 mongoose.connect(mongoConnectionString, {
     useNewUrlParser: true, 
